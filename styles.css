@@ -1,0 +1,74 @@
+
+body {
+ padding-top: 40px;
+ background-image: url("https://upload-assets.vice.com/files/2016/03/03/145703952827D4992A_482B_4A19_B4F0_A4B2F26AF546.jpg");
+}
+
+ 
+#text {
+  font-family: Century Gothic, sans-serif;
+  font-size: 25px;
+  margin-top: 75px;
+  padding: 9.5px 19px; 
+}
+
+
+ 
+#bigphoto img{ 
+ width:350px; 
+  height:220px; 
+ max-width: 100%;
+ height: auto;
+ border-radius: 150px;
+ margin-left: 100px;
+}
+.exactCenter { 
+  width:600px; 
+  height:300px; 
+  position: fixed; 
+  background-color: #00FF00; 
+  top: 50%; left: 50%; 
+  margin-top: -40px; 
+  margin-left: -100px; 
+}
+
+#logo {
+    font-size: 28px;
+    margin-left: 325px;
+    margin-top:-50px;
+
+  }
+
+
+  #button {
+    
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c3e5e), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #9c3e5e, #65a9d7);
+   background: -moz-linear-gradient(top, #9c3e5e, #65a9d7);
+   background: -ms-linear-gradient(top, #9c3e5e, #65a9d7);
+   background: -o-linear-gradient(top, #9c3e5e, #65a9d7);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 22px;
+   -moz-border-radius: 22px;
+   border-radius: 22px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 22px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b5c51;
+   background: #1b5c51;
+   }
